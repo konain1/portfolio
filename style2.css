@@ -1,0 +1,12 @@
+@media  screen and (max-width:1050px) {
+
+     a{
+        font-size: 18px;
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: row;
+
+    }
+}

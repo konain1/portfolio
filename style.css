@@ -1,5 +1,5 @@
 
-/* @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); */
+
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Blinker:wght@300&family=Press+Start+2P&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Blinker:wght@300&family=Finger+Paint&family=Press+Start+2P&display=swap');
@@ -8,10 +8,7 @@
 }
 
 body{
-    /* background-color: azure;
-
-    display: flex;
-    /* font-family: 'Press Start 2P', cursive; */
+    
     font-family: 'Finger Paint', cursive;
 
     background-image: linear-gradient(90deg,  #e4cfed, #021c21);
@@ -20,14 +17,12 @@ body{
     margin:0;
 
 }
-.section-one {
-    /* display: none; */
-}
-section {
+
+section-one {
     border:10px solid double;
     height: 80vh;
     width: 100vw;
-    /* background-color: blue; */
+    top: 10%;
     display: flex;
     position: relative;
 }
@@ -41,6 +36,7 @@ section {
     margin:auto;
     height: 65vh;
     width: 25vw;
+    margin-top: 200px;
     position: relative;
     padding: 0;
     /* box-shadow: 5px 10px #494545;
@@ -56,7 +52,7 @@ section {
     color: red;
 }
 .image {
-    /* background-color: aqua; */
+   
     border-radius: 50%;
     width: 15vw;
     height: 25vh;
@@ -70,7 +66,7 @@ section {
 .info {
     height: 25vh;
     width: 15vw;
-    /* border: 1px solid green; */
+    
     position: absolute;
     margin-top: 140px;
     display: flex;
@@ -83,24 +79,24 @@ section {
     font-size: 40px;
     /* font-family: 'Press Start 2P', cursive; */
     font-family: 'Blinker', sans-serif;
-    /* color: #3b3939;
-     */
+    
      color: #2F4F4F;
     
 }
 hr {
     width: 80%;
-    /* color: #021c21;/ */
+   opacity: 0.3;
+    
     border: 1px solid rgb(117, 114, 114);
 }
 .job {
-    /* color: brown; */
+
     font-size: 25px;
     font-family: 'Blinker', sans-serif;
 }
 
 .link {
-    /* background-color: aqua; */
+   
     display: flex;
     position: absolute;
     bottom:0;
@@ -117,7 +113,7 @@ hr {
     justify-content:space-evenly;
     align-items: center;
     position: absolute;
-    /* background-color: brown;   */
+    
     width: 100%;
     height: 50px;
     margin-top: 0px;
@@ -138,7 +134,7 @@ a {
 header {
     height: 50vh;
     width: 100vw;
-    background-image: linear-gradient(90deg,  #e4cfed, #021c21);
+   
 }
 
 nav {
@@ -146,6 +142,7 @@ nav {
     width: 100vw;
     height: 100%;
     /* background-color: #e4cfed; */
+    
     position: relative;
     font-size: 65px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
@@ -160,7 +157,8 @@ nav ul {
     align-items: center;
 }
 nav ul li a {
-    color: white;
+    /* color: white; */
+    color: rgb(129, 101, 129);
     font-family: 'Finger Paint', cursive;
 }
 
@@ -172,41 +170,67 @@ nav ul li a {
 .container {
     height: 80vh;
     width: 100vw;
-    /* background-color: #021c21; */
-    background-image: linear-gradient(90deg,  #e4cfed, #021c21);
     display: flex;
     flex-direction: column;
     position: relative;
 }
 .container .row-1 {
-    height: 70%;
+    height: 100%;
     position: absolute;
-    /* background-color: #e4cfed; */
-    background-image: linear-gradient(90deg,  #e4cfed, #021c21);
+    
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    border: 1px solid red;
+    /* border: 1px solid red; */
    text-align: center;
 }
 .col-a{
     /* background-color: #f4fcfe; */
     /* display: flex; */
     width: 70%;
-    background-image: linear-gradient(90deg,  #e4cfed, #021c21);
+    /* background-image: linear-gradient(90deg,  #e4cfed, #021c21); */
     height: 100%;
 }
 .col-b {
-    width: 30%;
+    width: 50%;
     height: 100%;
 
 }
 
 .img-a {
     width: 50%;
-    height: 70%;
+    height: 50%;
     position: absolute;
-    background-image: linear-gradient(90deg,  #e4cfed, #021c21);
-    margin-left: 20%;
+    /* background-image: linear-gradient(90deg,  #e4cfed, #021c21); */
+    margin-left: 10%;
+    top: 25%;
+    display: flex;
+    align-items: center;
+}
+.programmer {
+    height: 150%;
+    position: absolute;
+    width: 100%;
+   
+
+}
+
+.textarea-b {
+    width: 30%;
+    height: 100%;
+    /* background-color: #2F4F4F; */
+    top:0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 65px;
+    /* color: white; */
+
+    color: rgb(129, 101, 129);
+}
+
+.section-2 , .section-3 {
+    display: none;
 }
