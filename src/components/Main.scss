@@ -1,0 +1,59 @@
+:root{
+   
+   --BG-color-: #fefffe;
+   --Nav-color-:#d2f32c;
+   --nav-font-:'Titillium Web', sans-serif;
+   --contact-btn-color-:#fdb016;
+   --white-color-:#fff;
+   --contact-font-size-:12px;
+   --box-shadow-color-:#ffcb7d;
+   
+}
+
+.konain{
+    background-color: var(--BG-color-)
+
+
+    &__main-content-div{
+        // background-color:var(--Nav-color-)
+    }
+    nav {
+        display: flex;
+        // background-color:var(--Nav-color-);
+        justify-content: space-around;
+        // border: 1px solid black;
+        margin: 10px 0px;
+        align-items: center;
+        font-family:var(--nav-font-)
+        
+
+        
+    }
+    &__left-nav {
+       
+        display: flex;
+
+        
+    }
+    &__personal {
+        font: 500;
+        font-size: 20px;
+    }
+    &__right-nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width:  540px;
+       
+    }
+    &__contact {
+        // border: 1px solid black;
+        padding: 10px 30px;
+        background-color: var(--contact-btn-color-);
+      font-size: var(--contact-font-size-);
+       color: var(--white-color-);
+        border-radius: 25px;
+     box-shadow: rgb(252, 160, 22) 0px 20px 30px -10px;;
+    }
+
+}
