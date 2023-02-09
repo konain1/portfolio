@@ -1,13 +1,18 @@
 import React from 'react';
 import "./Main.scss";
+import './Container'
+import './Middlesection'
+import Container from './Container';
+import Middlesection from './Middlesection';
 <style> @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&family=Ubuntu:ital,wght@0,300;0,500;1,400&display=swap'); </style>
 
 function Main() {
   return (
     <>
       <div className="konain">
+      <div className='konain__widthDiv'>
     
-    <div className='konain__main-content-div'>
+    <div className='konain__main_cont'>
     <nav> 
     <div className='konain__left-nav'>
     <div className='konain__personal'>personal</div>
@@ -20,15 +25,15 @@ function Main() {
       <div className='konain__contact'>Contact</div>
     </div>
     </nav>
-    
-    <div className='konain__first-left'></div>
-    <div className='konain__first-right'></div>
-
 
     </div>
+      <Container/>
+      <Middlesection />
+      </div>
+
       
     </div> 
-    {/* outsider-div */}
+  
     </>
   )
 }

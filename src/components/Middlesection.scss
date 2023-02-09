@@ -1,0 +1,100 @@
+
+:root{
+    --BR-color-: #ccf1f9;
+    --BR2-color-:#f8e0b1;
+    --SIDELINES-:#eaebea;
+}
+.middle{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+
+    &__box1{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    &__row_1{
+        // border: 4px solid green;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0px;
+        position: relative;
+        padding: 30px 10px;
+    }
+    &__shadowDiv{
+        background-color: var(--BR-color-);
+        position: relative;
+        // border: 1px solid black;
+        padding: 10px 10px;
+        width: 220px;
+        height: 80px;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+
+    &__circle{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: 5px solid var(--BR-color-);
+      z-index: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: -30px;
+        background-color: #fff;
+        color: #000;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    &__rectengle {
+        z-index: 3;
+        background-color: #fff;
+        // border: 1px solid red;
+        position: relative;
+        padding:50px 30px;
+        bottom: 35px;
+        border-radius: 10px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        align-items: center;
+        color: rgb(44, 33, 33);
+        text-align: center;
+        
+    }
+    &__rectengle2{
+        border-left: 10px solid var(--BR2-color-);
+        border-right: 10px solid var(--BR2-color-);
+        border-bottom: 20px solid var(--BR2-color-);
+        border-radius: 15px;
+
+        box-shadow: inset;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: center;
+    }
+    &__secondshadowDiv{
+        background-color: var(--BR2-color-);
+    }
+    &__circle2{
+        border: 5px solid var(--BR2-color-);
+    }
+    &__row_2{
+        // border: 1px solid green;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0px;
+    }
+    &__box2{
+        background-color: #000;
+    }
+}

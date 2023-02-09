@@ -7,16 +7,26 @@
    --white-color-:#fff;
    --contact-font-size-:12px;
    --box-shadow-color-:#ffcb7d;
+   --SIDELINES-:#eaebea;
    
 }
 
 .konain{
-    background-color: var(--BG-color-)
+    background-color: var(--SIDELINES-);
 
 
-    &__main-content-div{
-        // background-color:var(--Nav-color-)
+  
+    &__widthDiv{
+        width: 1200px;
+        border: 1px solid black;
+        margin: auto;
+        background-color:var(--BG-color-);
+        
     }
+    &__main_cont{
+        // display: none;
+        border: 1px solid black;
+       }
     nav {
         display: flex;
         // background-color:var(--Nav-color-);
